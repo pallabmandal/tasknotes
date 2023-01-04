@@ -12,6 +12,7 @@
 - Create the defaule user from seeder ```  php artisan db:seed --class="UserSeeder"  ```
 - run ``` php artisan passport:install ```
 - run ``` php artisan key:generate ```
+- change permission of storea and bootstrap/cache ``` sudo chmod 777 -R storage/ bootstrap/cache/ ```
 - run ``` php artisan serve ``` this will start the server on localhost port 8000
 
 ## API
