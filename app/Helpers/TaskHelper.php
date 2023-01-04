@@ -26,7 +26,7 @@ class TaskHelper {
                 $task->status = $data['status'];
             }
             if(!empty($data['priority'])){
-                $task->priority = $data['priority'];
+                $task->priority = config('constants.priority.'.$data['priority']);
             }
 
             $task->save();
@@ -55,7 +55,7 @@ class TaskHelper {
                 $task->status = $data['status'];
             }
             if(!empty($data['priority'])){
-                $task->priority = $data['priority'];
+                $task->priority = config('constants.priority.'.$data['priority']);
             }
 
             $task->save();

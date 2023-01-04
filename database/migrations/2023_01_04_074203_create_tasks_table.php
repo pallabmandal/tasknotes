@@ -20,7 +20,7 @@ class CreateTasksTable extends Migration
             $table->date('start_date')->nullable();
             $table->date('due_date')->nullable();
             $table->enum('status', ['new', 'incomplete', 'complete'])->default('new')->index();
-            $table->enum('priority', ['high', 'medium', 'low'])->nullable()->index();
+            $table->enum('priority', ['1', '2', '3'])->nullable()->index();
             $table->timestamps();
             $table->softDeletes();
         });
