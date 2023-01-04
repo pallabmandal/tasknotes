@@ -11,6 +11,7 @@
 - run ``` php artisan migrate ```
 - Create the defaule user from seeder ```  php artisan db:seed --class="UserSeeder"  ```
 - run ``` php artisan passport:install ```
+- run ``` php artisan key:generate ```
 - run ``` php artisan serve ``` this will start the server on localhost port 8000
 
 ## API
