@@ -14,6 +14,7 @@
 - run ``` php artisan key:generate ```
 - change permission of storea and bootstrap/cache ``` sudo chmod 777 -R storage/ bootstrap/cache/ ```
 - run ``` php artisan serve ``` this will start the server on localhost port 8000
+- run ``` php artisan storage:link ``` 
 
 ## API
 - The postman environment will be found [HERE](https://drive.google.com/file/d/1kX_lq3rpYOPSxzmhA-OEAir0ycnk2LE7/view?usp=sharing)
